@@ -9,6 +9,9 @@ body{
  position: relative;   
 }
 
+.hero-header img{
+    height: 170px;
+}
 
 .hero-header{
     display: grid;
