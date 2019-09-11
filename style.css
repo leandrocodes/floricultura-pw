@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #FDE5C4;
+}
+
+
 .hero-header{
     display: grid;
     justify-items: center;
