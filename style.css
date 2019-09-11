@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth|Catamaran&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-header{
+    display: grid;
+    justify-items: center;
+}
+
+.hero-header h1{
+    color: #351F16;
+    font-family: 'Amaranth', sans-serif;
+}
+
+#navBar{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}
+
+.nav-links{
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #351F16;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 24px;
+    border-bottom: 2px solid transparent;
+    transition: all .3s ease;
+}
+
+.nav-item a:hover{
+    border-bottom: 2px solid #351F16;
+}
+
+.catalogoGeral{
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.flor{
+    height: 330px;
+    display: grid;
+    align-content: space-between;
+    justify-items: center;
+    margin: 10px 35px;
+}
+
+.flor img{
+    height: 300px;
+    margin: 0 auto;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
