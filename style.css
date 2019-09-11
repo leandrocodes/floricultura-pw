@@ -9,6 +9,7 @@ body{
  position: relative;   
 }
 
+
 .hero-header img{
     height: 170px;
 }
@@ -79,6 +80,8 @@ body{
     align-content: space-between;
     justify-items: center;
     margin: 10px 35px;
+    color: #351F16;
+    font-family: 'Catamaran', sans-serif;
 }
 
 .flor img{
